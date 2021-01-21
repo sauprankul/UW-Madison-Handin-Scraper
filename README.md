@@ -1,5 +1,5 @@
 # UW-Madison-Handin-Scraper
-This is a program built for the UW Madison CS Department. It looks at a specified "handin" directory and looks for project submissions.
+This is a program built for the UW Madison CS Department. It looks at a specified "handin" directory and scrapes project submissions.
 It creates a list of submissions, pairs partners together using partner.txt files, filters out empty folders then distributes the submissions across the TAs named in distro.py.
 This script was originally created by Saurabh Kulkarni (email: skulkarni27@wisc.edu) for Professor Barton Miller's FA20 CS537 class.
 
