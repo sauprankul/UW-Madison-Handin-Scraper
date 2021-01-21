@@ -1,7 +1,7 @@
 # UW-Madison-Handin-Scraper
 This is a program built for the UW Madison CS Department. It looks at a specified "handin" directory and looks for project submissions.
-
 It creates a list of submissions, pairs partners together using partner.txt files, filters out empty folders then distributes the submissions across the TAs named in distro.py.
+This script was originally created by Saurabh Kulkarni (email: skulkarni27@wisc.edu) for Professor Barton Miller's FA20 CS537 class.
 
 To use this script:
 
@@ -16,8 +16,13 @@ To use this script:
 
 After cloning, you can test the program by running ```python3 driver.py proj2 | python3 distro.py```. The expected output is in ```expected.txt``` inside the provided ```handin/``` test folder.
 
+roster.txt formatting;
+
+An example roster.txt is included in the repo.
+
 Partner.txt formatting:
 
+An example partner.txt is included in the repo.
 
 1) If you have a partner, only ONE of you should turn in code into the handin directory. The other should only have a partner.txt.
 
