@@ -16,11 +16,11 @@ To use this script:
 
 After cloning, you can test the program by running ```python3 driver.py proj2 | python3 distro.py```. The expected output is in ```expected.txt``` inside the provided ```handin/``` test folder.
 
-##roster.txt formatting;
+## roster.txt formatting;
 
 An example roster.txt is included in the repo.
 
-##Partner.txt formatting:
+## Partner.txt formatting:
 
 An example partner.txt is included in the repo.
 
@@ -53,16 +53,16 @@ Possible format errors:
 - Including identifiers like "csid: <csid>". Only include the values.
 
 
-##Extra features:
+## Extra features:
 
 - If a partner.txt contains "Firstname Lastname" instead of "Lastname, Firstname", the program will be able to handle it. Of course, "Firstname, Lastname" or "Lastname Firstname" are unacceptable.
 - A roster.txt is not strictly necessary. If there is no roster, the script will rely on the partner.txts for name information, and, absent a well-formatted partner.txt, will use the csid (name of handin folder) as the name. The roster simply allows submissions with bad partner.txts to have a real name associated with them.
 - The script can handle colon delimited identifiers such as "csid: skulkarni27". But it is neither necessary nor recommended. The order of the 3 fields is absolute.
 
-##Known issues:
+## Known issues:
 - This program does not distinguish between bad partner.txts and nonexistent partner.txts. This means that someone could put a bad partner.txt in their handin folder and get totally dropped from the final distribution. However, their partner (who has the code) will ideally also have a partner.txt and thus the grader will be able to manually match the two partners together at gradetime.
 
-##Sample Output:
+## Sample Output:
 TA1:
 
 1 csid7 (csid7 has sub): Found code but BAD partner.txt. Check manually!
