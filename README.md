@@ -16,11 +16,11 @@ To use this script:
 
 After cloning, you can test the program by running ```python3 driver.py proj2 | python3 distro.py```. The expected output is in ```expected.txt``` inside the provided ```handin/``` test folder.
 
-roster.txt formatting;
+##roster.txt formatting;
 
 An example roster.txt is included in the repo.
 
-Partner.txt formatting:
+##Partner.txt formatting:
 
 An example partner.txt is included in the repo.
 
@@ -53,11 +53,39 @@ Possible format errors:
 - Including identifiers like "csid: <csid>". Only include the values.
 
 
-Extra features:
+##Extra features:
 
 - If a partner.txt contains "Firstname Lastname" instead of "Lastname, Firstname", the program will be able to handle it. Of course, "Firstname, Lastname" or "Lastname Firstname" are unacceptable.
 - A roster.txt is not strictly necessary. If there is no roster, the script will rely on the partner.txts for name information, and, absent a well-formatted partner.txt, will use the csid (name of handin folder) as the name. The roster simply allows submissions with bad partner.txts to have a real name associated with them.
 - The script can handle colon delimited identifiers such as "csid: skulkarni27". But it is neither necessary nor recommended. The order of the 3 fields is absolute.
 
-Known issues:
+##Known issues:
 - This program does not distinguish between bad partner.txts and nonexistent partner.txts. This means that someone could put a bad partner.txt in their handin folder and get totally dropped from the final distribution. However, their partner (who has the code) will ideally also have a partner.txt and thus the grader will be able to manually match the two partners together at gradetime.
+
+##Sample Output:
+TA1:
+
+1 csid7 (csid7 has sub): Found code but BAD partner.txt. Check manually!
+2 csid9 (csid9 has sub): Found code but BAD partner.txt. Check manually!
+
+TA2:
+
+3 lname1,  fname1 (csid1 has sub), lname2,  fname2 (csid2): Good
+4 lname16, fname16 (csid16 doesn't have sub), lname17, fname17 (csid17): Partial match. Only found one partner.txt
+5 lname19, fname19 (csid19 doesn't have sub), lname18, fname18 (csid18): Partial match. Only found one partner.txt
+
+TA3:
+
+6 lname20, fname20 (csid20 has sub), lname21, fname21 (csid21): Partial match. Only found one partner.txt
+7 lname23, fname23 (csid23 doesn't have sub), lname22, fname22 (csid22): Partial match. Only found one partner.txt
+8 lname24, fname24 (csid24 has sub), lname25, fname25 (csid25): Good
+
+TA4:
+
+9 lname26, fname26 (csid26 has sub), lname27, fname27 (csid27): Good
+10 lname3, fname3 (csid3 has sub), lname4, fname4 (csid4): Found multiple submissions
+
+TA5:
+
+11 lname5, fname5 (csid5 has sub), lname6, fname6 (csid6): Partial match. Only found one partner.txt
+12 lname8, fname8 (csid8 has sub): Good
