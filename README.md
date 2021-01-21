@@ -37,7 +37,7 @@ Williams, Robert, rjava, rjwilliams22
 ```
 It's fine to swap the order of the lines. You and your partner can have the same partner.txt.
 
-Note the order and the comma separation. If you're working alone, your partner.txt will only have one line. This will allow us to confirm that you are indeed working alone and didn't just forget your partner.txt. Also, note that we're asking for Lastname, Firstname because PA1 graders were assigned in alphabetical order according to last name.
+Note the order and the comma separation. If you're working alone, your partner.txt will only have one line. This will allow us to confirm that you are indeed working alone and didn't just forget your partner.txt. Also, note that we're asking for Lastname, Firstname because Canvas gradebook entries are in lastname order.
 
 Possible format errors:
 
@@ -51,5 +51,5 @@ Possible format errors:
 Extra features:
 
 - If a partner.txt contains "Firstname Lastname" instead of "Lastname, Firstname", the program will be able to handle it. Of course, "Firstname, Lastname" or "Lastname Firstname" are unacceptable.
-- A roster.txt is not necessary. If there is no roster, the script will rely on the partner.txts for name information, and, absent a well-formatted partner.txt, will use the csid (name of handin folder) as the name.
+- A roster.txt is not strictly necessary. If there is no roster, the script will rely on the partner.txts for name information, and, absent a well-formatted partner.txt, will use the csid (name of handin folder) as the name. The roster simply allows submissions with bad partner.txts to have a real name associated with them.
 - The script can handle colon delimited identifiers such as "csid: skulkarni27". But it is neither necessary nor recommended. The order of the 3 fields is absolute.
