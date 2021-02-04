@@ -1,2 +1,0 @@
-lname1, fname1, csid1, wid1
-lname2, fname2, csid2, wid2

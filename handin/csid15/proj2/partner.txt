@@ -1,2 +1,0 @@
-fname14 lname14, csid14, wid14
-fname15 lname15, csid15, wid15

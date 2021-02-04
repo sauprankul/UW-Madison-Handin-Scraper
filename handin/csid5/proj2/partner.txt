@@ -1,2 +1,0 @@
-fname5 lname5, csid5, wid5
-fname6 lname6, csid6, wid6

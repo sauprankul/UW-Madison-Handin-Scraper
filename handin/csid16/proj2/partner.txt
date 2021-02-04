@@ -1,2 +1,0 @@
-fname16 lname16, csid16, wid16
-fname17 lname17, csid17, wid17

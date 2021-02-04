@@ -13,9 +13,10 @@ if __name__ == '__main__':
     # new version just reads from stdin
     subs_file = sys.stdin
     lines = subs_file.readlines()
-    lines = [line for line in lines if "not find project" not in line]
+    lines = [line for line in lines if "not find project" not in line and "No submission" not in line]
 
-    tas = ["TA1", "TA2", "TA3", "TA4", "TA5"]
+    tas = ["Chenhao", "Kaiwei", "Robert", "Guanzhou", "Saurabh"]
+    #tas = ["TA1", "TA2", "TA3", "TA4", "TA5"]
 
     fair_share = int(len(lines)/len(tas))
 

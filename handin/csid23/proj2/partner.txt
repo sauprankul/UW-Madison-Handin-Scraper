@@ -1,2 +1,0 @@
-fname22 lname22, csid22, wid22
-fname23 lname23, csid23, wid23
